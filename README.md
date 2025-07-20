@@ -1,4 +1,4 @@
-# Movierecomandationsystem
+# Movie Recomandation System
 
 **Overview**
 This project implements a content-based movie recommendation system using Python. The system recommends movies to users based on the similarity of their "tags" (genres, keywords, cast, crew, and plot keywords) to a given movie. It leverages natural language processing (NLP) techniques like stemming and vectorization, followed by cosine similarity to determine movie similarities.
