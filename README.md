@@ -68,6 +68,9 @@ In the last cell of the notebook, you'll find an input() prompt. Enter a movie t
 recommend(input("Enter movie title: "))
 Project Structure
 Movie-Recommendation-System/
+
 ├── Code.ipynb              # Jupyter Notebook containing the main project code
+
 ├── movies_dataset.csv      # The dataset used for movie recommendations
+
 └── README.md               # This README file
