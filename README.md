@@ -26,19 +26,21 @@ NLTK (Natural Language Toolkit)
 Scikit-learn
 
 **Setup and Installation**
-Clone the repository:
+
+**Clone the repository:**
 
 git clone https://github.com/karthik1438/Movie-Recommendation-System.git
+
 cd Movie-Recommendation-System
 
-Create a virtual environment (recommended):
+**Create a virtual environment (recommended):**
 
 python -m venv venv
 Activate the virtual environment:
 
 .\venv\Scripts\activate
 
-Install the required libraries:
+**Install the required libraries:**
 
 pip install numpy pandas nltk scikit-learn
 Note: You might need to download NLTK data. After installing NLTK, run python -c "import nltk; nltk.download('all')" in your Python environment.
@@ -46,7 +48,7 @@ Note: You might need to download NLTK data. After installing NLTK, run python -c
 Usage
 Place the dataset: Ensure the movies_dataset.csv file is in the same directory as Code.ipynb.
 
-Run the Jupyter Notebook:
+**Run the Jupyter Notebook:**
 
 jupyter notebook Code.ipynb
 
@@ -66,6 +68,9 @@ Example Usage in the Notebook:
 In the last cell of the notebook, you'll find an input() prompt. Enter a movie title, and the system will provide recommendations.
 
 recommend(input("Enter movie title: "))
+
+<img width="1471" height="349" alt="image" src="https://github.com/user-attachments/assets/8008ced5-bd73-4de4-a6ca-0c973745faca" />
+
 Project Structure
 Movie-Recommendation-System/
 
